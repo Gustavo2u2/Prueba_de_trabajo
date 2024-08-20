@@ -1,0 +1,30 @@
+﻿@page "/transacciones"
+
+@using BlazorCrud.shared;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using BlazorCrud.client.Services;
+
+@inject SweetAlertService Swal;
+@inject ITransaccionService transaccionService;
+@inject ITarjetaService tarjetaService;
+@inject IMovimientoService movimientoService;
+
+
+<h3>Transacciones</h3>
+
+@code {
+
+    List<TarjetaDTO>? listatarjeta = null;
+
+    List<MovimientoDTO>? movimientos = null;
+
+    List<TransaccionDTO>? transaccions = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        listatarjeta = await tarjetaService.list();
+
+        transaccions = await transaccionService.list();
+    }
+
+}

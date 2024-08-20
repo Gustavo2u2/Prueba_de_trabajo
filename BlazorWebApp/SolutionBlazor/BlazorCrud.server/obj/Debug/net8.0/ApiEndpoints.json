@@ -1,0 +1,126 @@
+[
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.MovimientoController",
+    "Method": "Compra",
+    "RelativePath": "api/Movimiento/Compra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipomov",
+        "Type": "BlazorCrud.shared.MovimientoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.MovimientoController",
+    "Method": "Lista",
+    "RelativePath": "api/Movimiento/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.MovimientoController",
+    "Method": "Pago",
+    "RelativePath": "api/Movimiento/Pago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipomov",
+        "Type": "BlazorCrud.shared.MovimientoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TarjetaController",
+    "Method": "Buscar",
+    "RelativePath": "api/Tarjeta/Buscar/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TarjetaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Tarjeta/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TarjetaController",
+    "Method": "Lista",
+    "RelativePath": "api/Tarjeta/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TarjetaController",
+    "Method": "ListaCuenta",
+    "RelativePath": "api/Tarjeta/ListaCuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TitularController",
+    "Method": "Lista",
+    "RelativePath": "api/Titular/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TransaccionController",
+    "Method": "ListaBody",
+    "RelativePath": "api/Transaccion/ListaBody",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.server.Controllers.TransaccionController",
+    "Method": "ListaHeader",
+    "RelativePath": "api/Transaccion/ListaHeader",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

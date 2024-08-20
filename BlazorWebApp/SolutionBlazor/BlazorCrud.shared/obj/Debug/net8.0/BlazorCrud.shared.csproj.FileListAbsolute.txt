@@ -1,0 +1,11 @@
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\bin\Debug\net8.0\BlazorCrud.shared.deps.json
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\bin\Debug\net8.0\BlazorCrud.shared.dll
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\bin\Debug\net8.0\BlazorCrud.shared.pdb
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.AssemblyInfoInputs.cache
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.AssemblyInfo.cs
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.csproj.CoreCompileInputs.cache
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.dll
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\refint\BlazorCrud.shared.dll
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\BlazorCrud.shared.pdb
+C:\Users\sasog\OneDrive\Escritorio\prueba de empleo\BlazorWebApp\SolutionBlazor\BlazorCrud.shared\obj\Debug\net8.0\ref\BlazorCrud.shared.dll

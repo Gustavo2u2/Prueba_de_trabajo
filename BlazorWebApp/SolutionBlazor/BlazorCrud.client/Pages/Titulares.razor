@@ -1,0 +1,19 @@
+﻿@page "/titulares"
+
+@using BlazorCrud.shared;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using BlazorCrud.client.Services;
+
+@inject SweetAlertService Swal;
+@inject ITitularService titularService;
+
+<h3>Titulares</h3>
+
+@code {
+    List<TitularDTO>? listatitular = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        listatitular = await titularService.list();
+    }
+}

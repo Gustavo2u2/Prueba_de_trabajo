@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\pages\\transacciones.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\pages\\transacciones.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\pages\\tarjetas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\pages\\tarjetas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\pages\\pagos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\pages\\pagos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|c:\\users\\sasog\\onedrive\\escritorio\\prueba de empleo\\blazorwebapp\\solutionblazor\\blazorcrud.client\\pages\\compras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FD0394-CE58-4077-8417-8F8E5DB14CEE}|BlazorCrud.client\\BlazorCrud.client.csproj|solutionrelative:blazorcrud.client\\pages\\compras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransaccionService.cs",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Services\\TransaccionService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Services\\TransaccionService.cs",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Services\\TransaccionService.cs",
+              "RelativeToolTip": "BlazorCrud.client\\Services\\TransaccionService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T16:46:16.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITransaccionService.cs",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Services\\ITransaccionService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Services\\ITransaccionService.cs",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Services\\ITransaccionService.cs",
+              "RelativeToolTip": "BlazorCrud.client\\Services\\ITransaccionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T16:43:36.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transacciones.razor",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Transacciones.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Pages\\Transacciones.razor",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Transacciones.razor",
+              "RelativeToolTip": "BlazorCrud.client\\Pages\\Transacciones.razor",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwBoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T16:36:28.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pagos.razor",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Pagos.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Pages\\Pagos.razor",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Pagos.razor",
+              "RelativeToolTip": "BlazorCrud.client\\Pages\\Pagos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T11:47:12.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tarjetas.razor",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Tarjetas.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Pages\\Tarjetas.razor",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Tarjetas.razor",
+              "RelativeToolTip": "BlazorCrud.client\\Pages\\Tarjetas.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T16:15:00.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Compras.razor",
+              "DocumentMoniker": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Compras.razor",
+              "RelativeDocumentMoniker": "BlazorCrud.client\\Pages\\Compras.razor",
+              "ToolTip": "C:\\Users\\sasog\\OneDrive\\Escritorio\\prueba de empleo\\BlazorWebApp\\SolutionBlazor\\BlazorCrud.client\\Pages\\Compras.razor",
+              "RelativeToolTip": "BlazorCrud.client\\Pages\\Compras.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T16:02:20.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

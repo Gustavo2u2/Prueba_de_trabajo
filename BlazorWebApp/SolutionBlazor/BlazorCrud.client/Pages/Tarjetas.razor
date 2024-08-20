@@ -1,0 +1,96 @@
+﻿@page "/tarjetas"
+
+@using BlazorCrud.shared;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using BlazorCrud.client.Services;
+
+@inject SweetAlertService Swal;
+@inject ITarjetaService tarjetaService;
+@inject ITitularService titularService;
+
+<h3>Tarjetas</h3>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Numero de tarjeta</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody class="table-bordered  border-2">
+        @if (listatarjeta == null)
+        {
+            <tr>
+                <td colspan="6">
+                    <img style="width:50px" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" />
+                </td>
+            </tr>
+        }else
+        {
+            
+            @foreach (var item in listatarjeta)
+            {
+                       <tr>
+                    <td class="text-lg-start">@item.NumeroTarjeta</td>
+                    <td>@item.Titular.Nombre</td>
+                    <td>@item.Titular.Apellido</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="estadocuenta">
+                            <i>estado de cuenta</i>
+                        </a>
+                        <a class="btn btn-primary btn-sm" href="compras">
+                            <i>agregar compra</i>
+                        </a>
+                        <a class="btn btn-primary btn-sm" href="pagos">
+                            <i>agregar pago </i>
+                        </a>
+                        <a class="btn btn-primary btn-sm" href="transaccion">
+                            <i>Transacciones</i>
+                        </a>
+                    </td>
+                </tr>    
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    List<TarjetaDTO>? listatarjeta = null;
+
+    List<TitularDTO>? listatitular = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        listatarjeta = await tarjetaService.list();
+
+        listatitular = await titularService.list();
+    }
+
+
+    private async Task Eliminar(int id)
+    {
+        var resultado = await Swal.FireAsync(new SweetAlertOptions
+        {
+        Title = "Eliminar Tarjeta",
+        Text = "Desea eliminar esta tarjeta?",
+        Icon = SweetAlertIcon.Question,
+        ShowCancelButton = true
+        });
+
+        if (resultado.IsConfirmed)
+        {
+            var eliminado = await tarjetaService.Eliminar(id);
+
+            if (eliminado)
+            {
+                listatarjeta = listatarjeta!.FindAll(e => e.Id != id);    
+            }
+        }
+
+
+    }
+
+}

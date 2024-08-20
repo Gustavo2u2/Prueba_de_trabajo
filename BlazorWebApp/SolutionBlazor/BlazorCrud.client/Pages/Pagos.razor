@@ -1,0 +1,86 @@
+﻿@page "/pagos"
+@page "/movimiento/{idTarjetaagregar:int}"
+
+@using BlazorCrud.shared;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using BlazorCrud.client.Services;
+
+@inject IMovimientoService movimientoService;
+@inject ITarjetaService tarjetaService;
+@inject NavigationManager navegation;
+
+
+<h3>Registro Pago de TC</h3>
+
+<EditForm Model="movimiento"OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="mb-3">
+        <label>Monto de abono</label>
+        <InputNumber class="form-control" @bind-Value="movimiento.Monto"></InputNumber>
+        <ValidationMessage For="@(()=> movimiento.Monto)"></ValidationMessage>
+    </div>
+    <div class="mb-3">
+        <label>Descripcion </label>
+        <InputText class="form-control" @bind-Value="movimiento.Descripcion"></InputText>
+        <ValidationMessage For="@(()=> movimiento.Descripcion)"></ValidationMessage>
+    </div>
+    <div class="mb-3">
+        <label>Fecha </label>
+        <InputDate class="form-control" @bind-Value="movimiento.Fecha"></InputDate>
+        <ValidationMessage For="@(()=> movimiento.Fecha)"></ValidationMessage>
+    </div>
+    <button class="btn btn-primary" type="submit">
+        Guardar
+    </button>
+
+    <a class="btn btn-warning" href="tarjetas">Volver</a>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int idTarjetaagregar { get; set; } = 0;
+
+
+    string titulo = string.Empty;
+    string btnTexto = string.Empty;
+    string op = string.Empty;
+
+    MovimientoDTO movimiento = new MovimientoDTO();
+    List<TarjetaDTO> listTarjeta = new List<TarjetaDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (idTarjetaagregar == 1)
+        {
+            movimiento.TipoMov = 1;
+            titulo = "Registro Pago de TC";
+            btnTexto = "Registrar pago";
+            op = "Pago";
+        }
+        else
+        {
+            movimiento.TipoMov = 2;
+            btnTexto = "Registrar compra";
+            titulo = "Reistro de compra";
+            op = "Compra";
+        }
+        listTarjeta = await tarjetaService.list();
+
+
+    }
+
+    private async Task OnValidSubmit()
+    {
+        int IdDevuelto = 0;
+        if (idTarjetaagregar == 0)
+            IdDevuelto = await movimientoService.Pago(movimiento);
+        else
+            IdDevuelto = await movimientoService.Compra(movimiento);
+
+        if (IdDevuelto != 0)
+            navegation.NavigateTo("/tarjetas");
+
+    }
+
+
+}
